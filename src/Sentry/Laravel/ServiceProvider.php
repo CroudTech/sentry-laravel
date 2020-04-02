@@ -49,9 +49,9 @@ class ServiceProvider extends IlluminateServiceProvider
      */
     public function register(): void
     {
-        if ($this->app instanceof Lumen) {
-            $this->app->configure('sentry');
-        }
+        // if ($this->app instanceof Lumen) {
+        //     $this->app->configure('sentry');
+        // }
 
         $this->mergeConfigFrom(__DIR__ . '/../../../config/sentry.php', static::$abstract);
 
