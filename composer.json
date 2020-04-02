@@ -1,5 +1,5 @@
 {
-  "name": "sentry/sentry-laravel",
+  "name": "croudtech/sentry-laravel",
   "type": "library",
   "description": "Laravel SDK for Sentry (https://sentry.io)",
   "keywords": ["sentry", "laravel", "log", "logging", "error-monitoring", "error-handler", "crash-reporting", "crash-reports"],
